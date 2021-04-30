@@ -32,7 +32,7 @@ header {
 header h1 a {
     font-size: 28px;
     color:var(--tertiary-color)
-    
+
 }
 header a {
     text-decoration: none;
@@ -97,7 +97,12 @@ footer h2 {
     flex-wrap: wrap;
 }
 footer ul {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+footer ul li {
+    padding: 15px;
 }
